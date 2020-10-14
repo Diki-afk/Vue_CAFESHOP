@@ -1,0 +1,13 @@
+1. masuk ke direktori tugasakhir
+2. lalu jalankan perintah npm install
+3. lalu npm run serve(untuk mode development)
+4. npm run build apabila akan ke mode production(akan dideploy dihosting)
+
+Selengkapnya tentang component vuetify bisa dilihat pada https://vuetifyjs.com/en/getting-started/quick-start/
+gambaran layout pada vuetify dapat dilihat pada dokumentasi vuetify
+
+apabila terjadi error vue-cli-service not found atau error saat menjalankan
+perintah npm run serve hapus terlebih dahulu direktori node_module pada direktori 
+tugasakhir(direktori projek vue) lalu jalankan perintah npm install lalu jalankan kembali.
+
+apabila saat menjalankan npm run serve mendapatkan "error form chokidar" tutup text editor atau terminal lalu buka kemabli dan pastika tersambung ke internet lalu jalankan npm run serve
